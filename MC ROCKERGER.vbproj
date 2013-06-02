@@ -116,23 +116,23 @@
     <Compile Include="ApplicationEvents.vb" />
     <Compile Include="Class1.vb" />
     <Compile Include="Class2.vb" />
-    <Compile Include="Form1.vb">
+    <Compile Include="portal.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.vb">
-      <DependentUpon>Form1.vb</DependentUpon>
+    <Compile Include="portal.Designer.vb">
+      <DependentUpon>portal.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form2.Designer.vb">
-      <DependentUpon>Form2.vb</DependentUpon>
+    <Compile Include="launcher.Designer.vb">
+      <DependentUpon>launcher.vb</DependentUpon>
     </Compile>
-    <Compile Include="Form2.vb">
+    <Compile Include="launcher.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form4.Designer.vb">
-      <DependentUpon>Form4.vb</DependentUpon>
+    <Compile Include="vol.Designer.vb">
+      <DependentUpon>vol.vb</DependentUpon>
     </Compile>
-    <Compile Include="Form4.vb">
+    <Compile Include="vol.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form5.Designer.vb">
@@ -161,22 +161,22 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resource1.resx</DependentUpon>
     </Compile>
-    <Compile Include="SplashScreen1.Designer.vb">
-      <DependentUpon>SplashScreen1.vb</DependentUpon>
+    <Compile Include="splash.Designer.vb">
+      <DependentUpon>splash.vb</DependentUpon>
     </Compile>
-    <Compile Include="SplashScreen1.vb">
+    <Compile Include="splash.vb">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.vb</DependentUpon>
+    <EmbeddedResource Include="portal.resx">
+      <DependentUpon>portal.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form2.resx">
-      <DependentUpon>Form2.vb</DependentUpon>
+    <EmbeddedResource Include="launcher.resx">
+      <DependentUpon>launcher.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form4.resx">
-      <DependentUpon>Form4.vb</DependentUpon>
+    <EmbeddedResource Include="vol.resx">
+      <DependentUpon>vol.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form5.resx">
       <DependentUpon>Form5.vb</DependentUpon>
@@ -192,8 +192,8 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resource1.Designer.vb</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="SplashScreen1.resx">
-      <DependentUpon>SplashScreen1.vb</DependentUpon>
+    <EmbeddedResource Include="splash.resx">
+      <DependentUpon>splash.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

@@ -1,7 +1,7 @@
 ﻿Imports System
 Imports System.Net
 Imports WMPLib
-Public Class Form1
+Public Class portal
 
     Private Sub Form1_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
         Try
